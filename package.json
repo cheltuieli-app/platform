@@ -1,0 +1,20 @@
+{
+  "name": "platform",
+  "version": "0.1.2",
+  "description": "support for cheltuieli.app's computational needs",
+  "author": "Alexandru Catrina",
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "mocha *.spec.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "abstract": "file:abstract-0.5.2.tgz",
+    "language": "file:language-0.3.0.tgz"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.4"
+  }
+}
